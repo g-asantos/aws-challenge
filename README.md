@@ -32,7 +32,7 @@ serverless deploy
 # Utilizando a API
 
 
-### Pegando todos os funcionários
+## Pegando todos os funcionários
 
 Realize uma requisição Htpp GET para https://gljs6de9l0.execute-api.us-east-1.amazonaws.com/dev/api/employees
 
@@ -42,7 +42,7 @@ Realize uma requisição Htpp GET para https://gljs6de9l0.execute-api.us-east-1.
 Realize uma requisição Htpp GET para https://gljs6de9l0.execute-api.us-east-1.amazonaws.com/dev/api/employees/ID-DO-FUNCIONARIO
 
 
-### Criando um funcionário
+## Criando um funcionário
 
 Realize uma requisição Htpp POST com conteúdo em JSON no seguinte formato:
 
@@ -65,6 +65,6 @@ Realize uma requisição Htpp PUT para https://gljs6de9l0.execute-api.us-east-1.
 	"role": "test"
 }
 
-### Deletando um funcionário
+## Deletando um funcionário
 
 Realize uma requisição Htpp DELETE para https://gljs6de9l0.execute-api.us-east-1.amazonaws.com/dev/api/employees/ID-DO-FUNCIONARIO
